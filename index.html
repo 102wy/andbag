@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>AND BAG | 앤드백 - 핸드백 스타일 플랫폼</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <!--[if lt IE 9]> 
+        <script src="js/html5shiv.js"></script> 
+    <![endif]-->
+    <!-- <script type="text/javascript" src="js/prefixfree.min.js"></script> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- 모달창 -->
+    <div class="modal">
+        <div class="modal-cont">
+            <p class="modal-txt">
+                본 사이트는 포트폴리오용 사이트로 <br>
+                리소스는 원저작자에게 있습니다.
+            </p>
+            <span class="modal-desc">
+                HTML5, CSS3, javaScript & jQuery로 제작되었으며,<br>
+                크롬에 최적화 되어있습니다.
+            </span>
+            <button class="modal-close">CLOSE</button>
+        </div>
+    </div>
+    <!-- 이벤트 -->
+    <a href="#" class="fix-banner">
+        <img src="images/fixbanner.png" alt="이벤트">
+    </a>
+    <!-- 검색창 -->
+    <section class="good-search">
+        <div class="good-search-wrap">
+            <div class="good-search-top">
+                <span class="good-search-tit">
+                    Search
+                </span>
+                <button class="good-search-close">
+                    Close
+                </button>
+            </div>
+            <div class="good-search-bottom">
+                <form action="" method="get" class="search-form">
+                    <input type="text" name="" class="search-txt" maxlength="30" placeholder="검색어를 입력해주세요.">
+                    <input type="submit" class="search-bt">
+                </form>
+                <div class="good-search-word">
+                    <a href="#">#크로스백</a>
+                    <a href="#">#백팩</a>
+                    <a href="#">#토트백</a>
+                    <a href="#">#숄더백</a>
+                    <a href="#">#지갑</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 모바일메뉴 -->
+    <div class="toggle-menu">
+        <div class="mb-gnb">
+            <div class="mb-top">
+                <a href="#">Login/Join</a>
+                <a href="#">My page</a>
+                <a href="#">Delivery</a>
+            </div>
+            <div class="mb-menu">
+
+                <div class="mb-cate">
+                    <div class="mb-cate-tit">
+                        brands
+                    </div>
+                    <ul class="mb-cate-list">
+                        <li><a href="#">anne klein</a></li>
+                        <li><a href="#">geiger</a></li>
+                        <li><a href="#">malo</a></li>
+                        <li><a href="#">lenid</a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-cate">
+                    <div class="mb-cate-tit">
+                        전체
+                    </div>
+                    <ul class="mb-cate-list">
+                        <li><a href="#">all</a></li>
+                        <li><a href="#">cross</a></li>
+                        <li><a href="#">backpack</a></li>
+                        <li><a href="#">tote</a></li>
+                        <li><a href="#">shoulder</a></li>
+                        <li><a href="#">wallet</a></li>
+                    </ul>
+                </div>
+                <!-- 일반메뉴 -->
+                <a href="#" class="mb-cate-link">신상품</a>
+                <a href="#" class="mb-cate-link">아울렛</a>
+                <a href="#" class="mb-cate-link">온라인 단독</a>
+                <!--// 일반메뉴 -->
+                <div class="mb-cate">
+                    <div class="mb-cate-tit">
+                        기획전
+                    </div>
+                    <ul class="mb-cate-list">
+                        <li><a href="#">where are you going</a></li>
+                        <li><a href="#">8월愛 8LLOW</a></li>
+                        <li><a href="#">WONDER-FULL WEEKEND</a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-cate">
+                    <div class="mb-cate-tit">
+                        And Style
+                    </div>
+                    <ul class="mb-cate-list">
+                        <li><a href="#">campaign</a></li>
+                        <li><a href="#">editorial</a></li>
+                    </ul>
+                </div>
+                <!-- Help 회원 메뉴 -->
+                <ul class="mb-cate-help">
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Stores</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+                <!--// Help 회원 메뉴 -->
+            </div>
+        </div>
+    </div>
+    <div class="toggle-bt">
+        <a class="menu-trigger" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+    <!--//  -->
+
+
+    <div class="wrap">
+        <!-- 상단영역 -->
+        <header class="header">
+            <div class="pagew">
+                <a href="#" class="logo" alt="앤드백">
+                    <img src="images/logo_2.svg" alt="앤드백" class="h-bk">
+                    <img src="images/logo.svg" alt="앤드백" class="h-w">
+                </a>
+                <ul class="gnb clearfix">
+                        <li>
+                            <a href="#">BRANDS</a>
+                        </li>
+
+                        <li>
+                            <a href="#">전체</a>
+                        </li>
+                        <li>
+                            <a href="#">신상품</a>
+                        </li>
+                        <li>
+                            <a href="#">아울렛</a>
+                        </li>
+                        <li>
+                            <a href="#">기획전</a>
+                        </li>
+                        <li class="h-bar"><a href="#">and style</a></li>
+                    </ul>
+
+                <div class="member">
+                    <ul class="member-list clearfix">
+                        <li>
+                            <a href="#" class="search-open">
+                                <img src="images/icon16.svg" alt="검색" class="h-bk">
+                                <img src="images/searchIcon_f.svg" alt="검색" class="h-w">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_mypage_bk.svg" alt="마이페이지" class="h-bk">
+                                <img src="images/icon_mypage_w.svg" alt="마이페이지" class="h-w">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon_cart_bk.svg" alt="장바구니" class="h-bk">
+                                <img src="images/icon_cart_w.svg" alt="장바구니" class="h-w">
+                                <span class="count">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 모바일 멤버 기능 -->
+                <ul class="member-list-mb">
+                    <li>
+                        <a href="#" class="search-bt-mb"><img src="images/searchIcon.svg" alt="검색"></a>
+                    </li>
+                    <li>
+                        <a href="#" class="basket-bt-mb"><img src="images/basketIcon.svg" alt="장바구니"></a>
+                    </li>
+                    <li>
+                        <span class="count-mb">0</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- 비주얼 영역 -->
+        <section class="visual">
+            <div class="pagew">
+                <!-- swiper : visual 영역 -->
+                <div class="swiper-container sw_visual">
+                    <!-- 보여줄 내용 div 들 -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-1">
+                                <a href="#">
+                                    <img src="images/visual_01_txt.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-2">
+                                <a href="#">
+                                    <img src="images/visual_02_txt.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-3">
+                                <a href="#">
+                                    <img src="images/visual_03_txt.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 좌, 우측 버튼 -->
+                    <div class="sw_visual_prev"></div>
+                    <div class="sw_visual_next"></div>
+                    <!-- 스크롤바 -->
+                    <div class="swiper-scrollbar sw_visual_sc"></div>
+                    <!-- 페이지내이션 -->
+                    <div class="swiper-pagination sw_visual_pg"></div>
+                </div>
+            </div>
+        </section>
+        <!-- 신상품 영역 -->
+        <section class="new">
+            <div class="pagew">
+                <h2 class="section-tit">신상품</h2>
+                <div class="good-wrap clearfix">
+                    <!-- 신상품 : Swiper -->
+                    <div class="swiper-container sw_new">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_01.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">GEIGER</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">가든 미듐 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">GX4D3F1F220</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">139,000원</span>
+                                                <span class="good-price-2">110,000원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_02.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">크로플백 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1F600</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">315,000원</span>
+                                                <span class="good-price-2">220,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_03.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">사각 미니 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1YC3P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">119,000원</span>
+                                                <span class="good-price-2">71,400원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_04.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">베리 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1J68G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">478,000원</span>
+                                                <span class="good-price-2">167,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/good_05.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">컬러배색 양면 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3FYD8P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">129,000원</span>
+                                                <span class="good-price-2">77,400원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_06.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">데일리 캐주얼 미듐 백팩</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1YL0P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">139,000원</span>
+                                                <span class="good-price-2">83,400원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_07.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">GEIGER</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">가든 미듐 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">GX4D3F1F210</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">139,000원</span>
+                                                <span class="good-price-2">110,000원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_08.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">사각 미니 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1TC5P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">119,000원</span>
+                                                <span class="good-price-2">71,400원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_09.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">크로플백 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3DF1F500</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">335,000원</span>
+                                                <span class="good-price-2">234,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/new_10.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">컬러배색 양면 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3F1YD2P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">129,000원</span>
+                                                <span class="good-price-2">77,400원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 좌, 우측 버튼 -->
+                        <div class="sw_new_prev"></div>
+                        <div class="sw_new_next"></div>
+                    </div>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination sw_new_pg"></div>
+                </div>
+                <div class="good-bt">
+                    <a href="#">신상품 전체보기</a>
+                </div>
+            </div>
+        </section>
+        <!-- 배너 1 -->
+        <section class="banner-1">
+            <div class="pagew">
+                <div class="banner-1-wrap clearfix">
+                    <!-- 배너 1: Swiper 영역 -->
+                    <div class="swiper-container sw_banner_1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/banner_01.png" alt="">
+                                    <span class="banner-tit">품격과 실용성을 더하다</span>
+                                    <span class="banner-desc">신상 쇼퍼백 전격 공개</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/banner_02.png" alt="">
+                                    <span class="banner-tit">데일리 크로스백의 완성</span>
+                                    <span class="banner-desc">미니 크로스백, 최대 추가 30% 할인</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 좌, 우측 버튼 -->
+                        <div class="sw_banner_1_prev"></div>
+                        <div class="sw_banner_1_next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 베스트 상품 -->
+        <section class="best">
+            <div class="pagew">
+                <h2 class="section-tit">Best</h2>
+                <div class="good-wrap clearfix">
+                    <!-- 베스트 : Swiper 관련 -->
+                    <div class="swiper-container sw_best">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_01.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">피카소 미니멀 크로스백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1M70G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">318,000원</span>
+                                                <span class="good-price-2 best-price2">111,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_02.jpg" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">웨빙 포인트 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3C3F1VJ0P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">119,000원</span>
+                                                <span class="good-price-2 best-price2">39,270원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">COUPON</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_03.jpg" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">세로형 버킷백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3C3F1WE0P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">109,000원</span>
+                                                <span class="good-price-2 best-price2">34,880원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_04.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">프리다 크로스백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1P25G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">338,000원</span>
+                                                <span class="good-price-2 best-price2">118,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_05.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">쉬라즈 빅 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1P53G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">538,000원</span>
+                                                <span class="good-price-2 best-price2">188,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_06.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">글라스 쇼퍼백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1N90G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">318,000원</span>
+                                                <span class="good-price-2 best-price2">79,000원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_07.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">미듐사이즈 버킷백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1VA0P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">119,000원</span>
+                                                <span class="good-price-2 best-price2">534,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">COUPON</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_08.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">피카소 라운드 크로스백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1FM64G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">338,000원</span>
+                                                <span class="good-price-2 best-price2">118,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_09.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">릴리 토트백 $ 릴리 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">AX3D1F1N08H</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">179,000원</span>
+                                                <span class="good-price-2 best-price2">99,000원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/best_10.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">도로시 세로 크로스백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1P53G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1 best-price1">378,000원</span>
+                                                <span class="good-price-2 best-price2">113,400원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">COUPON</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 좌, 우측 버튼 -->
+                        <div class="sw_best_prev"></div>
+                        <div class="sw_best_next"></div>
+                    </div>
+                    <!-- pagination -->
+                    <div class="swiper-pagination sw_best_pg"></div>
+                </div>
+                <div class="good-bt">
+                    <a href="#">베스트 전체보기</a>
+                </div>
+            </div>
+        </section>
+        <!-- 배너 2 -->
+        <section class="banner-2">
+            <div class="pagew">
+                <div class="swiper-container sw_banner_2">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <a href="#" class="banner-2-link">
+                                <img src="images/banner_03.png" alt="배너">
+                                <span class="banner-tit">About AND BAG</span>
+                                <span class="banner-desc">고객님을 위한 앤드백만의 스토리텔링</span>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#" class="banner-2-link">
+                                <img src="images/banner_04.png" alt="배너">
+                                <span class="banner-tit">앤드백 멤버쉽</span>
+                                <span class="banner-desc">확 달라진 회원 혜택을 지금 확인하세요</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- MD 추천상품 영역 -->
+        <section class="md-pick">
+            <div class="pagew">
+                <h2 class="section-tit">MD 추천</h2>
+                <div class="good-wrap clearfix">
+                    <!-- MD : Swiper -->
+                    <div class="swiper-container sw_md">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_01.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">프리다 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1P05</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">478,000원</span>
+                                                <span class="good-price-2">167,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_02.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">프리다 파우치 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1P10G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">438,000원</span>
+                                                <span class="good-price-2">153,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_03.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">버즈 크로스백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1M28G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">438,000원</span>
+                                                <span class="good-price-2">153,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_04.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">단델리온 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1G530</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">415,000원</span>
+                                                <span class="good-price-2">290,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_05.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">토피넛 미니 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1P030</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">315,000원</span>
+                                                <span class="good-price-2">220,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_06.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">피카소 라운드 크로스백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1M60G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">338,000원</span>
+                                                <span class="good-price-2">118,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_07.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">메리 매쉬 미니 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3C3F1I40G</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">438,000원</span>
+                                                <span class="good-price-2">153,300원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">COUPON</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_08.jpg" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">가로 쇼퍼백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3B3F1YS3P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">79,000원</span>
+                                                <span class="good-price-2">35,550원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_09.png" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">플리츠 미듐 토트백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D3F1ZK7P</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">139,000원</span>
+                                                <span class="good-price-2">834,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="good">
+                                    <div class="good-top">
+                                        <a href="#">
+                                            <img src="images/md_10.jpg" alt="제품">
+                                        </a>
+                                        <span class="favo">
+                                            <img src="images/heart.png" alt="관심상품 등록">
+                                        </span>
+                                    </div>
+                                    <div class="good-info">
+                                        <ul class="good-info-list">
+                                            <li>
+                                                <span class="good-tit">ANNE KLEIN</span>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="good-link">노티드 숄더백</a>
+                                            </li>
+                                            <li>
+                                                <span class="good-no">KX3D1F1M700</span>
+                                            </li>
+                                            <li>
+                                                <span class="good-price-1">295,000원</span>
+                                                <span class="good-price-2">206,500원</span>
+                                                <!--                                                <span class="good-discount">30%</span>-->
+                                            </li>
+                                            <li>
+                                                <span class="good-icon">new</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 좌, 우측 버튼 -->
+                        <div class="sw_md_prev"></div>
+                        <div class="sw_md_next"></div>
+                    </div>
+                    <!-- pagination -->
+                    <div class="swiper-pagination sw_md_pg"></div>
+                </div>
+                <div class="good-bt">
+                    <a href="#">추천상품 전체보기</a>
+                </div>
+            </div>
+        </section>
+        <!-- 캠페인 영역 -->
+        <section class="campaign">
+            <div class="pagew">
+                <h2 class="section-tit">Campaign</h2>
+                <div class="campaign-wrap clearfix">
+                    <!-- campaign : Swiper -->
+                    <div class="swiper-container sw_camp">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/camp_01.jpg" alt="캠페인">
+                                    <span class="camp-tit">ANNE KLEIN</span>
+                                    <span class="camp-desc">21SS Lookbook</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/camp_02.jpg" alt="캠페인">
+                                    <span class="camp-tit">ANNE KLEIN</span>
+                                    <span class="camp-desc">21SS Lookbook</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <img src="images/camp_03.jpg" alt="캠페인">
+                                    <span class="camp-tit">ANNE KLEIN</span>
+                                    <span class="camp-desc">21SS Lookbook</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 좌, 우측 버튼 -->
+                        <div class="sw_camp_prev"></div>
+                        <div class="sw_camp_next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 하단영역 -->
+        <footer class="footer">
+            <div class="pagew">
+                <div class="footer-cs">
+                    <div class="footer-cs-txt1">고객센터 : <a href="#">080-000-0000</a></div>
+                    <span class="footer-cs-txt2">월-금 10:00-17:00<i class="bar"></i>점심:12:00-13:00<i class="bar"></i>(토,일 공휴일 휴무)</span>
+                </div>
+                <ul class="footer-sitemap">
+                    <li>
+                        <span class="sitemap-tit">About Us</span>
+                        <ul class="sitemap-submenu">
+                            <li><a href="#">ANDBAG Story</a></li>
+                            <li><a href="#">ANNE KLEIN</a></li>
+                            <li><a href="#">GEIGER</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer-down">
+                        <span class="sitemap-tit">Customer Service</span>
+                        <ul class="sitemap-submenu">
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Q&A</a></li>
+                            <li><a href="#">Notice</a></li>
+                            <li><a href="#">Review</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="sitemap-tit">Account</span>
+                        <ul class="sitemap-submenu">
+                            <li><a href="#">Login/Sign up</a></li>
+                            <li><a href="#">My page</a></li>
+                            <li><a href="#">Membership</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="sitemap-tit">Stores</a>
+                    </li>
+                </ul>
+                <ul class="footer-sns">
+                    <li><a href="#"><img src="images/ins.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="images/ch_icon.png" alt="카카오채널"></a></li>
+                    <li><a href="#"><img src="images/ka_icon.png" alt="네이버포스트"></a></li>
+                </ul>
+                <div class="footer-info">
+                    <ul class="footer-info-list">
+                        <li>
+                            <img src="images/logo_gray.svg" alt="앤드백" class="f-logo">
+                        </li>
+                        <li>
+                            <a href="#" class="f-link">이용약관</a>
+                            <a href="#" class="f-link">이용안내</a>
+                            <a href="#" class="f-link">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <div class="f-info-txt no-span-left">
+                                (주)성창인터패션 <a href="#">[사업자정보확인]</a>
+                            </div>
+                            <span class="f-info-txt">대표:박준호</span>
+                            <span class="f-info-txt">CPO :박준호</span>
+                            <span class="f-info-txt">E-mail:webmaster@scif.co.kr</span>
+                            <span class="f-info-txt no-span-right no-cont">Mall Order License: 제2016-서울금천-0135</span>
+                            <br>
+                            <span class="f-info-txt no-span-left">business License: 119-81-04027</span>
+                            <span class="f-info-txt no-span-right no-cont">Address: 서울 특별시 금천구 가산디지털1로 165(가산동) 가산비지니스센터 1302호</span>
+                        </li>
+                        <li>
+                            <span class="copy">&copy; 2020 AND BAG All Rights Reserved.</span>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#" class="kcp">
+                    <img src="images/kcp.png" alt="">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
